@@ -5,8 +5,9 @@ using UnityEngine;
 public class Gravity : MonoBehaviour
 {
     Rigidbody rb;
-    const float G = (6.674f * (10 ^ -11));
+    const float G = 0.006674f;
     public static List<Gravity> otherObjectsList;
+    
 
     private void Awake()
     {
